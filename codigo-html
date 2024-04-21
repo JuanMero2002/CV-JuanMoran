@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Curriculum Vitae</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+        text-align: center;
+    }
+    .section {
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .section:nth-child(odd) {
+        background-color: #e6f7ff;
+    }
+    .section:nth-child(even) {
+        background-color: #fff2e6;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .profile-picture {
+        float: right;
+        margin-left: 20px;
+        border-radius: 5px;
+        border: 2px solid #ddd;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Mi Curriculum Vitae</h1>
+    
+    <div class="section">
+        <h2>Datos Personales</h2>
+        <div class="profile-picture">
+            <img src="foto_juan.jpg" alt="Foto" width="150" height="175">
+        </div>
+        <p><b>Nombre:</b> Juan Carlos Morán Mero</p>
+        <p><b>C.I:</b> 1317577979</p>
+        <p><b>Edad:</b> 21 años</p>
+        <p><b>Cuidad:</b> Manta, Manabí - Ecuador</p>
+        <p><b>Email:</b> juancarlosmoranmero343@gmail.com</p>
+        <p><b>Teléfono:</b> 0981512471</p>
+        <p><b>Estado Civil:</b> Soltero</p>
+    </div>
+    
+    <div class="section">
+        <h2>Estudios Realizados</h2>
+        <p>Bachiller En Ciencias - Unidad Educativa Fiscal Jorge Washington</p>
+        <p>Curso de Inglés - COPEI English Institute</p>
+        <p>Tecnologías de la Información - Universidad Laica Eloy Alfaro de Manabí</p>
+        
+    </div>
+    
+    <div class="section">
+        <h2>Experiencia Laboral</h2>
+        <p>Ascesor Vehicular - Empresa +Capital (Enero de 2024 - MArzo 2024)</p>
+        <p>Descripción: Llamada a clientes potenciales para realizar una compra de algún vehículo en el que se muestren interesados, y brindarles información sobre lo que necesiten saber. </p>
+    
+    </div>
+    
+    <div class="section">
+        <h2>Referencias Personales</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Ocupación</th>
+            </tr>
+            <tr>
+                <td>Lady Mero Pisco</td>
+                <td>096147254</td>
+                <td>Abogada</td>
+            </tr>
+            <tr>
+                <td>Jorge Rodríguez</td>
+                <td>098273592</td>
+                <td>Docente</td>
+            </tr>
+            <tr>
+                <td>José Mero</td>
+                <td>0953334510</td>
+                <td>Ing. Industrial</td>
+            </tr>
+        </table>
+    </div>
+    
+</div>
+
+</body>
+</html>
